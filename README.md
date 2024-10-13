@@ -5,11 +5,11 @@ A API utilizada: OMDB.
 
 Bibliotecas necessárias:
 
--requests:
-pip install requests
+requests:
+-pip install requests
 
--mysqlconnector:
-pip install mysql-connector-python
+mysqlconnector:
+-pip install mysql-connector-python
 
--pands:
-pip install pandas
+pandas:
+-pip install pandas
