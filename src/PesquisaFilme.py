@@ -1,5 +1,6 @@
 import requests
 import Filme
+import FilmeDAO
 
 class PesquisaFilme:
     pass
@@ -18,3 +19,7 @@ class PesquisaFilme:
         else:
             filme = Filme.Filme(request.json())
             print(filme.__str__())
+            
+            dao = FilmeDAO.FilmeDao()
+            dao.create(filme)
+            dao.close()
