@@ -8,8 +8,8 @@ Bibliotecas necessárias:
 requests:
 -pip install requests
 
-mysqlconnector:
--pip install mysql-connector-python
+sqlite3:
+-pip install sqlite3
 
 pandas:
 -pip install pandas
