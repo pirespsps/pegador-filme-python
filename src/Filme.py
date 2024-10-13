@@ -19,8 +19,3 @@ class Filme:
     def __str__(self):
         return f" \n Nome do filme:{self._nome} \n Ano:{self._ano} \n Diretor:{self._diretor} \n \n Resumo \n {self._resumo} \n \n IMDB:{self._nota_imdb} \n Rotten Tomatoes:{self._nota_rt}"
     
-#'Ratings': [
-#{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, 
-#{'Source': 'Rotten Tomatoes', 'Value': '91%'}, 
-#{'Source': 'Metacritic', 'Value': '80/100'}
-#], 
