@@ -11,5 +11,5 @@ requests:
 sqlite3:
 -pip install sqlite3
 
-pandas:
--pip install pandas
+kivy:
+-pip install kivy
