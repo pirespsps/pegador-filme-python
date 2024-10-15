@@ -1,6 +1,7 @@
 import requests
 import Filme
 import FilmeDAO
+import FilmeGUI
 
 class PesquisaFilme:
     pass
@@ -18,8 +19,10 @@ class PesquisaFilme:
             print("Não foi possível realizar a pesquisa")
         else:
             filme = Filme.Filme(request.json())
-            print(filme.__str__())
-            
-            dao = FilmeDAO.FilmeDao()
-            dao.create(filme)
-            dao.close()
+
+            #dao = FilmeDAO.FilmeDao()
+            #dao.create(filme)
+            #dao.close()
+
+            filmetela = FilmeGUI.FilmeGUI(filme)
+            filmetela.run()
