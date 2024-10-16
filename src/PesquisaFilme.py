@@ -1,7 +1,5 @@
 import requests
 import Filme
-import FilmeDAO
-import FilmeGUI
 
 class PesquisaFilme:
     pass
@@ -24,5 +22,4 @@ class PesquisaFilme:
             #dao.create(filme)
             #dao.close()
 
-            filmetela = FilmeGUI.FilmeGUI(filme)
-            filmetela.run()
+            return filme;
