@@ -1,4 +1,3 @@
-import PesquisaFilme
 import ScreenManagerApp
 
 class Main:
